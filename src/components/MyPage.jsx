@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/Row';
 import InfiniteScroll from "react-infinite-scroll-component";
 import Myplaceholder from "./placeholder.jsx"
 import LoadingBar from 'react-top-loading-bar'
-const apikey = 'a229f34c73e2407da89d52bc7943d512'
+const apikey = '' //Put Your Api Key Here between ''
 //Main Function to Render page content
 function Mypage(props) {
 	//Required Hooks
