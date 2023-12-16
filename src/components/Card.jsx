@@ -7,7 +7,7 @@ function Mycard(props) {
 	//Default image when a card has no image to Show
   let myimg = "https://cdn.pixabay.com/photo/2015/04/10/19/17/magazines-716801_1280.jpg";
   return (
-    <Card border="danger" style={{width: '18rem',backgroundColor:'#150b3b',color:'white',margin:'15px' }}>
+    <Card border="danger" style={{width: '18rem',backgroundColor:'#150b3b',color:'white',marginTop:'15px',marginRight:'10px' }}>
       <Badge pill bg="success" style={{width:"auto",position:"absolute",display:"block"}}>{props.source}</Badge>
         <Card.Img variant="top" src={props.image?props.image:myimg} />
         <Card.Body>
