@@ -4,8 +4,8 @@ import Mynavbar from './components/Navbar.jsx'
 import Mypage from './components/MyPage.jsx';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 export default function App() {
-	//Setting Default country to India
-	const [country,setCountry] = useState("in")
+	//Setting Default country to USA
+	const [country,setCountry] = useState("us")
   return (
     <>
       <Router>
