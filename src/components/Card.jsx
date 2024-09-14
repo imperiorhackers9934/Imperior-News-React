@@ -20,7 +20,7 @@ function Mycard(props) {
 			<Button variant="danger" style={{display:'block',justifyContent:'end'}} href={props.link}>Read More</Button>
         </Card.Footer>
       <Card.Footer style={{color:'white'}}>
-          <p className="small">Last updated on {props.date}</p>
+          <p className="small">Last updated on {`${props.date.split('-')[2].split("T")[0]}/${props.date.split('-')[1]}/${props.date.split('-')[0]}`}</p>
         </Card.Footer>
       </Card>
   );
